@@ -57,7 +57,7 @@ df2 = pd.DataFrame({'A': [7, 8, 9], 'B': [10, 11, 12]})
 Answer:
 
 ```python
-df3 = pd.concat([df1, df2])
+df3 = pd.concat([df1, df2], ignore_index=True)
 df3
 ```
 
